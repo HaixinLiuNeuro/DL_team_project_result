@@ -1,0 +1,12 @@
+name: DL_project_result
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - matplotlib
+  - numpy
+  - pip
+  - pip:
+    - seaborn
